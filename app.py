@@ -7,7 +7,7 @@ from decimal import Decimal
 import uuid
 import random
 
-app = Flask(_name_)
+app = Flask(__name__)
 app.secret_key = 'ksmadnaini1325r623e2vcdeyewcf'
 
 # AWS DynamoDB Setup
